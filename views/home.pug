@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block scripts
+   style 
+     include ../static/style.css 
+block content 
+    section#introSection 
+            div Welcome to Gagan's Dance Academy 
+            div.small  Eat Dance Sleep Repeat
+    section#missonSection  
+            h2 Our mission  
+            div.card 
+             h3  Dance Perfection
+             div.card-box 
+                div.card-img 
+                   img(src="/static/img/dnc1.png", alt="")
+                div.card-content 
+                p This the best dance academy of the universe
+            div.card   
+             h3  Dance the way you like
+             div.card-box 
+                div.card-img 
+                   img(src="/static/img/dnc2.png", alt="")
+                div.card-content 
+                p This the best dance academy of the universe  
+            div.card 
+             h3  Expert teaching
+             div.card-box 
+                div.card-img 
+                   img(src="/static/img/dnc3.png", alt="")
+                div.card-content 
+                p This the best dance academy of the universe 
+    section#sponserSection  
+            h2 Our sponser
+            div#sponser 
+            img(src="/static/img/logo1.png", alt="sponser image" Class="spimage")
+            img(src="/static/img/logo2.png", alt="sponser image" Class="spimage")
+            img(src="/static/img/logo3.png", alt="sponser image" Class="spimage")
+            img(src="/static/img/logo4.png", alt="sponser image" Class="spimage")
